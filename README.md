@@ -37,5 +37,4 @@ Joblib for model serialization
 Iris dataset from scikit-learn datasets - https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
 
 ## 📌 License
-
-This project is licensed under the [MIT License](LICENSE).
+MIT License
