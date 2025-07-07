@@ -42,7 +42,9 @@ def predict():
 	    print("Result :- " ,result)
 
 	    
-	    return jsonify({"Prediction is - ":result})
+	    # return jsonify({"Prediction is - ":result})
+	return render_template("index.html", result=result)
 
 if __name__ =='__main__':
-	app.run(debug=True)
+	# app.run(debug=True)
+	app.run(debug=True, port=5050)

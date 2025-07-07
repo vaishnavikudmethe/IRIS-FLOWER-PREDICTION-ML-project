@@ -19,7 +19,12 @@
 		<input type="text"  id ="petal_width" name="petal_width">	
 		<br><br>
 		<input type="submit"  value="Submit">
+		
+
 	</form>
+	{% if result %}
+ 		<h3>🌸 Prediction: {{ result }}</h3>
+	{% endif %}
 
 </div>
 </body>
